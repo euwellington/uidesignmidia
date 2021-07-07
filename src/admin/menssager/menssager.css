@@ -1,0 +1,128 @@
+.menssager {
+    background: rgb(34, 34, 34);
+    /* padding: 130px; */
+    height: 100vh;
+    width: 100vw; 
+    padding: 30px;
+}
+.header-menssager-title {
+    color: white;
+    font-weight: 400;
+    font-size: 10pt;
+}
+.menssager-number {
+    color: white;
+    font-size: 17pt;
+    font-weight: 200;
+}
+.header-search-menssager {
+    background: white;
+    width: 200px;
+    border-radius: 60px;
+}
+#input-menssager {
+    background: transparent;
+    border: 0;
+    font-size: 13px;
+    padding-right: 2px;
+}
+.icon-menssager {
+    font-size: 15pt;
+    margin: 6px;
+    margin-right: 10px;
+    color: rgba(31, 30, 30, 0.801);
+}
+#xclear {
+    font-size: 20pt;
+    /* margin: 6px; */
+    margin-top: -7px;
+    margin-right: 10px;
+    color: rgba(31, 30, 30, 0.801);
+    padding: 0;
+    border: 0;
+    background: transparent;
+}
+.results-menssager {
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: start; */
+}
+.box-results-menssager {
+    /* height: 100px; */
+    padding: 5px;
+    margin-left: 90px;
+    margin-top: 20px;
+    border-left: 1px solid rgb(13, 158, 236);
+}
+.results-nome {
+    color: white;
+    margin: 0;
+    font-weight: 500;
+    font-size: 13pt;
+}
+.results-data {
+    color: white;
+    margin: 0;
+    margin-top: 2px;
+    font-size: 7pt;
+}
+.results-hora {
+    color: white;
+    margin: 0;
+    margin-left: 10px;
+    margin-top: 2px;
+    font-size: 7pt;
+}
+.results-assunto {
+    color: white;
+    margin: 0;
+    font-size: 8pt;
+    width: 150px;
+    overflow: auto;
+    overflow: hidden;
+    margin-top: 2px;
+    height: 35px;
+}
+.btn-plus-results {
+    background:rgb(228, 49, 43);
+    width: 30px;
+    height: 30px;
+    border-radius: 60px;
+    border: 0;
+    align-items: center;
+    color: rgb(222, 226, 228);
+    margin-top: 6px;
+}
+.div-info-results {
+    display: grid;
+    margin-left: 5px;
+}
+.info-results {
+    color: white;
+    font-size: 7pt;
+    margin: auto
+}
+.img-ok {
+    height: 30px;
+    margin-top: -10px;
+}
+.not-confim {
+    color: rgb(225, 213, 213);
+    font-weight: bold;
+    font-size: 7pt;
+    padding:4px;
+    border-radius: 60px;
+    background: rgb(53, 53, 53);
+    margin-top: -10px;
+    margin: 0;
+}
+.img-loading-result {
+    height: 150px;
+    margin-top: 150px;
+}
+#skeleton-title {
+    width: 150px;
+    background: rgb(55, 55, 55);
+}

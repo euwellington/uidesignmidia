@@ -1,0 +1,312 @@
+/* BAF ***************************************************************************************** */
+.baf {
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: rgb(42, 228, 42);
+    color: white;
+    border-radius: 60px;
+    align-items: center;
+    font-size: 22pt;
+    transition: 0.2s;
+}
+.baf:hover {
+    transition: 0.2s;
+    cursor: pointer;
+    transform: scale(1.0400);
+}
+.div-baf {
+    padding: 15px;
+    height: 400px;
+    width: 500px;
+    background-image: linear-gradient(rgb(27, 255, 114), rgb(51, 146, 91));
+    /* border-radius: 50px; */
+}
+.div-whats {
+    color: rgb(255, 255, 255);
+    margin: 30px;
+    font-size: 40pt;
+}
+.baf-title {
+    font-weight: 700;
+    font-size: 15pt;
+    color: rgb(255, 255, 255);
+    margin: 0;
+    text-align: center;
+    margin-top: 10px;
+}
+.baf-subtitle {
+    color: rgb(255, 255, 255);
+    font-weight: 200;
+    text-align: center;
+    font-size: 15pt;
+    margin: 0;
+}
+.baf-subtitle-info {
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+    text-align: center;
+    font-size: 7pt;
+    margin: 0;
+    margin-top: 50px;
+    width: 200px;
+    line-height: 12px;
+}
+.div-btn-closed {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+#btn-whatsapp {
+    background: rgb(153, 0, 255);
+    color: white;
+    width: 100%;
+    border-radius: 60px;
+    margin: 10px;
+}
+.btn-closed {
+    color: white;
+    font-size: 25pt;
+}
+.btn-closed:hover {
+    cursor: pointer;
+}
+#btn-go-whatsapp {
+    /* background: rgb(153, 0, 255);
+    color: white; */
+    border-radius: 60px;
+    width: 250px;
+    padding: 2px;
+    margin-top: 20px;
+    transition: 0.2s;
+}
+#btn-go-whatsapp:hover {
+    transition: 0.2s;
+    transform: scale(1.0400);
+}
+@media (max-width:900px) {
+    .div-baf {
+        padding: 0px;
+        height: 400px;
+        width: 300px;
+        background-image: linear-gradient(rgb(15, 151, 67), rgb(51, 146, 91));
+        bottom: 200px;
+        right: 20px;
+        /* border-radius: 50px; */
+    }
+    #btn-go-whatsapp {
+        border-radius: 60px;
+        width: 250px;
+        padding: 8px;
+        margin-top: 20px;
+        transition: 0.2s;
+    }
+    .baf-title {
+        font-size: 17pt;
+        line-height: 20px;
+    }
+    .baf-subtitle-info {
+        font-weight: 400;
+    }
+}
+/* APRESENTATION ***************************************************************************************** */
+.apresentation {
+    background: rgb(34, 34, 34);
+    margin: 0;
+    /* height: 800px; */
+    padding: 154px;
+}
+.apresentation-title {
+    color: rgb(153, 0, 255);
+    font-size: 25pt;
+    font-weight: 800;
+    margin: 0;
+    width: 300px;
+    margin-top: 70px;
+}
+.apresentation-subtitle {
+    font-size: 20pt;
+    font-weight: 200;
+    margin-top: -14px;
+    color: white;
+}
+.img-apresentation {
+    height: 390px;
+    margin-left: 0px;
+    margin-top: -75px;
+}
+@media (max-width: 1200px) {
+    .apresentation-title {
+        font-size: 20pt;
+        font-weight: 800;
+        margin: 0;
+        width: auto;
+    }
+    .img-apresentation {
+        margin-left: 40px;
+    }
+}
+@media (max-width: 900px) {
+    .responsive {
+        flex-wrap: wrap;
+    }
+    .apresentation {
+        background: rgb(34, 34, 34);
+        margin: 0;
+        padding: 14px;
+    }
+    .apresentation-title {
+        font-size: 20pt;
+        font-weight: 800;
+        justify-content: flex-start;
+        align-content: flex-start;
+        margin-top: 35px;
+    }
+    .apresentation-subtitle {
+        margin-top: -14px;
+    }
+    .img-apresentation {
+        height: 250px;
+        margin-left: 0px;
+        margin-top: 0px;
+        margin-bottom: 30px;
+
+    }
+
+}
+/* ABOUT ***************************************************************************************** */
+.about {
+    background: rgb(34, 34, 34);
+    padding: 40px;
+}
+.about-title {
+    color: white;
+    font-weight: 200;
+    font-size: 25pt;
+    /* text-align: center; */
+}
+.qs {
+    color: rgb(153, 0, 255);
+    font-weight: bold;
+}
+.about-content {
+    color: white;
+    font-size: 13pt;
+    /* text-align: center; */
+    width: 500px;
+    font-weight: 200;
+}
+#btn-about {
+    width: 300px;
+    border-radius: 60px;
+}
+@media (max-width: 900px) {
+    .about {
+        padding: 0px;
+        padding-top: 30px;
+    }
+    .about-title {
+        font-weight: 200;
+        font-size: 18pt;
+    }
+    .about-content {
+        font-size: 12pt;
+        width: 100%;
+    }
+    #btn-about {
+        width: 100%;
+        border-radius: 60px;
+    }
+}
+/* FOCUS ***************************************************************************************** */
+.focus {
+    background: rgb(34, 34, 34);
+    padding: 40px;
+}
+.focus-title {
+    color: white;
+    font-weight: 200;
+    font-size: 25pt;
+    text-align: right;
+    width: 400px;
+}
+.sp {
+    color: rgb(153, 0, 255);
+    font-weight: bold;
+}
+.focus-content {
+    color: white;
+    font-size: 13pt;
+    text-align: right;
+    width: 500px;
+    font-weight: 200;
+}
+@media (max-width: 900px) {
+    .focus {
+        padding: 0px;
+        padding-top: 40px;
+
+    }
+    .focus-title {
+        font-size: 25pt;
+        width: 280px;
+        line-height: 35px;
+    }
+    .focus-content {
+        font-size: 12pt;
+        width: 100%;
+    }
+}
+/* FOCUS ***************************************************************************************** */
+.job {
+    background: rgb(34, 34, 34);
+    padding: 40px;
+}
+.job-title {
+    color: white;
+    font-weight: 200;
+    font-size: 25pt;
+    /* text-align: right; */
+    /* width: 700px; */
+}
+.sp {
+    color: rgb(153, 0, 255);
+    font-weight: bold;
+}
+.job-content {
+    color: white;
+    font-size: 13pt;
+    text-align: center;
+    width: 600px;
+    font-weight: 200;
+}
+#btn-job {
+    width: 400px;
+    border-radius: 60px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+@media (max-width: 900px) {
+    .job {
+        padding: 0px;
+        padding-top: 40px;
+    }
+    .job-title {
+        color: white;
+        font-size: 25pt;
+        width: 250px;
+        text-align: center;
+        line-height: 35px;
+    }
+    .job-content {
+        font-size: 12pt;
+        width: 100%;
+    }
+    #btn-job {
+        width: 100%;
+        border-radius: 60px;
+        margin-top: 20px;
+    }
+}

@@ -1,0 +1,109 @@
+.login {
+    padding: 160px;
+    background: rgb(34, 34, 34);
+    height: 100vh;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+}
+.login-left {
+    width: 300px;
+}
+.logo-login {
+    height: 20px;
+    margin-bottom: 20px;;
+}
+.login-title {
+    color: rgba(255, 255, 255, 0.867);
+    font-size: 20pt;
+    font-weight: 500px;
+}
+.login-subtitle {
+    color: rgba(255, 255, 255, 0.781);
+    font-size: 10pt;
+    width: 400px;
+}
+#bar-bottom {
+    width: 100%;
+    height: 0.5px;
+    background: rgba(255, 255, 255, 0.192);
+}
+.help-title {
+    color: rgba(255, 255, 255, 0.781);
+    margin: 0;
+    font-size: 13pt;
+}
+.help-subtitle {
+    color: rgba(255, 255, 255, 0.781);
+    margin: 0;
+    font-size: 9pt;
+}
+.help-subtitle:hover {
+    color: white;
+}
+
+
+
+
+.login-right {
+    margin-left: 200px;
+    align-self: center;
+}
+.login-box {
+    width: 300px;
+    background: rgb(46, 46, 46);
+    padding: 20px;
+    border-radius: 16px;
+}
+.login-box-title {
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+.box-form {
+    border-left: 1px solid rgb(124, 7, 241);
+    padding-left: 10px;
+}
+.box-form-title {
+    color: white;
+    margin: 0;
+    font-size: 8pt;
+    margin-top: 5px;
+}
+#user {
+    background: transparent;
+    border: 0;
+    font-size: 10pt;
+    color: white;
+    padding: 0;
+}
+#password {
+    background: transparent;
+    border: 0;
+    font-size: 10pt;
+    color: white;
+    padding: 0;
+}
+#login {
+    width: 100%;
+    background: rgb(124, 7, 241);
+    border-radius: 20px;
+    color: white;
+    margin: 10px;
+    transition: 0.2s;
+}
+#login:hover {
+    transition: 0.2s;
+    transform:scale(1.0350);
+}
+
+@media (max-width: 1200px) {
+    .login {
+        padding: 100px;
+    }
+}
+@media (max-width: 900px) {
+    .login {
+        display: none;
+    }
+}

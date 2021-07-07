@@ -1,0 +1,29 @@
+.error404 {
+    background: rgb(34, 34, 34);
+    padding: 10px;
+}
+.img404 {
+    height: 390px;
+}
+.ops {
+    color: white;
+    text-align: center;
+    font-size: 22pt;
+    margin: 0;
+    font-weight: 800;
+}
+.found {
+    color: white;
+    text-align: center;
+    margin: 0;
+    font-size: 22pt;
+    font-weight: 300;
+}
+@media(max-width: 900px) {
+    .error404 {
+        padding: 0px;
+    }
+    .img404 {
+        height: 340px;
+    }
+}

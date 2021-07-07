@@ -1,0 +1,29 @@
+.menu-admin {
+    background: rgb(63, 63, 63);
+    flex-direction: column;
+    padding-top: 15px;
+}
+.div-item {
+    margin-top: 20px;
+}
+.menu-admin-item {
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 16pt;
+    border-left: 3px solid rgba(118, 12, 240, 0);
+    transition: 0.2s;
+}
+.menu-admin-item:hover {
+    transition: 0.2s;
+    transform: scale(1.0550);
+    color: rgb(18, 180, 230);
+    border-left: 3px solid rgb(18, 180, 230);
+}
+.active-admin {
+    color: rgb(18, 180, 230);
+    border-left: 3px solid rgb(18, 180, 230);
+}
+#logginOut {
+    cursor: pointer;
+}

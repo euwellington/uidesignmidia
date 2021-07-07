@@ -1,0 +1,216 @@
+.page-contact {
+    background: rgb(34, 34, 34);
+}
+.page-contact-title {
+    color: rgb(131, 15, 240);
+    font-size: 34pt;
+    font-weight: 800;
+    width: 400px;
+    line-height: 35px;
+    margin-top: 130px;
+}
+.page-contact-subtitle {
+    color: rgb(238, 238, 238);
+    font-size: 18pt;
+    line-height: 25px;
+    width: 400px;
+    font-weight: 300;
+}
+.page-contact-email {
+    color: rgba(0, 0, 0, 0.692);
+    font-size: 12pt;
+    font-weight: 500;
+    padding: 10px;
+    border-radius: 60px;
+    background: white;
+}
+.page-contact-whatsapp {
+    color: rgb(238, 238, 238);
+    font-size: 25pt;
+    /* margin-left: 20px; */
+}
+.page-contact-whatsapp:hover {
+    color: rgba(238, 238, 238, 0.788);
+    cursor: pointer;
+    font-size: 18pt;
+}
+.div-form {
+    width: 80%;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+}
+.form-title {
+    margin: 0;
+    margin-top: 11px;
+    font-weight: 500;
+    color: white;
+    font-size: 9pt;
+}
+#nome-input, #email-input,#contato-input {
+    width: 100%;
+    font-size: 11pt;
+}
+#assunto-input {
+    width: 100%;
+    font-size: 11pt;
+    height: 150px;
+}
+#btn-enviar {
+    border-radius: 60px;
+    background: rgb(131, 15, 240);
+    color: white;
+    margin: 20px;
+    width: 250px;
+}
+.page-contact-info {
+    color: white;
+    font-size: 8pt;
+    margin: 0;
+    width: 200px;
+    display: none;
+}
+.envelope {
+    background: white;
+    color: rgb(131, 15, 240);
+    height: 50px;
+    width: 50px;
+    border-radius: 60px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    font-size: 20pt;
+    margin-top: 20px;
+    transition: 0.2s;
+}
+.whatsapp {
+    background: white;
+    color: rgb(131, 15, 240);
+    height: 50px;
+    width: 50px;
+    border-radius: 60px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    font-size: 20pt;
+    transition: 0.2s;
+    margin-top: 10px;
+}
+.whatsapp:hover, .envelope:hover {
+    cursor: pointer;
+    transform: scale(1.0400);
+    transition: 0.2s;
+}
+.envelope {
+    display: none;
+}
+.envelope-text {
+    color: white;
+}
+.div-send {
+    margin-top: 30px;
+}
+.img-send {
+    height: 120px;
+}
+.send-title {
+    color: white;
+    text-align: center;
+    margin: 0;
+    font-weight: 400;
+    font-size: 15pt;
+}
+.send-subtitle {
+    color: white;
+    width: 250px;
+    margin: 0;
+    text-align: center;
+    font-weight: 200;
+    margin-bottom: 170px;
+    font-size: 9pt;
+}
+.img-loading-send {
+    height: 120px;
+    /* margin: 10px; */
+}
+@media (max-width: 900px) {
+    .div-form {
+        margin-left: 0px;
+        width: 92vw;
+    }
+    .page-contact {
+        padding: 0px;
+    }
+    .responsive-mobile {
+        flex-wrap: wrap;
+    }
+    .form-title {
+        margin: 0;
+        margin-top: 8px;
+        font-weight: 500;
+        color: white;
+        font-size: 9pt;
+    }
+    #nome-input, #email-input,#contato-input {
+        width: 100%;
+    }
+    #assunto-input {
+        height: 200px;
+    }
+    .page-contact-title {
+        color: rgb(131, 15, 240);
+        font-size: 28pt;
+        width: 70%;
+        line-height: 35px;
+        margin-top: 10px;
+    }
+    .page-contact-subtitle {
+        color: rgb(238, 238, 238);
+        font-size: 18pt;
+        line-height: 25px;
+        width: 80%;
+    }
+    .page-contact-email {
+        padding: 8px;
+        margin: 0;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .page-contact-info {
+        color: white;
+        font-size: 8pt;
+        margin: 0;
+        width: 200px;
+    }
+    .envelope {
+        position: fixed;
+        bottom: 20px;
+        right: 10px;
+        color: white;
+        background: rgb(131, 15, 240);
+        font-size: 20pt;
+        margin-top: 2px;
+        height: 45px;
+        width: 45px;
+        display: block;
+    }
+    .envelope:focus {
+        color: white;
+    }
+    .whatsapp {
+        position: fixed;
+        bottom: 80px;
+        right: 10px;
+        color: white;
+        background: rgb(131, 15, 240);
+        font-size: 20pt;
+        height: 45px;
+        width: 45px;
+    }
+    .whatsapp:focus {
+        color: white;
+    }
+    .envelope-text {
+        display: none;
+    }
+}

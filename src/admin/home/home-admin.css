@@ -1,0 +1,110 @@
+.home-admin {
+    background: rgb(34, 34, 34);
+    padding: 130px;
+    height: 100vh;
+    width: 100vw;
+}
+.home-admin-title {
+    color: white;
+    text-align: center;
+}
+.user {
+    color:rgb(222, 213, 232);
+    font-weight: bold;
+    margin-left: 5px;
+}
+#skeleton-name {
+    width: 50px;
+    background: rgb(55, 55, 55);
+}
+#skeleton-img {
+    width: 60px;
+    height: 60px;
+    background: rgb(55, 55, 55);
+}
+.img-user-perfil {
+    width: 60px;
+    height: 60px;
+    background: rgb(160, 159, 159);
+    border-radius: 60px;
+}
+.home-admin-subtitle {
+    color: white;
+    text-align: center;
+    font-size: 8pt;
+    margin-top: 10px;
+}
+.box-options-admin {
+    background: rgb(63, 63, 63);
+    margin-top: 30px;
+    width: 200px;
+    padding: 10px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    transition: 0.2s;
+}
+.box-options-admin:hover {
+    transition: 0.2s;
+    cursor: pointer;
+}
+.link {
+    text-decoration: none;
+    margin-left: 15px;
+}
+.link:hover {
+    text-decoration: none;
+}
+.icon-admin {
+    color: white;
+    margin-right: 5px;
+    font-size: 35pt;
+}
+.admin-option-title {
+    color: white;
+    font-size: 16pt;
+    margin-top: 5px;
+    margin: 0;
+}
+.admin-option-subtitle {
+    font-size: 9pt;
+    color: white;
+    margin: 0;
+    margin-top: -7px;
+}
+.bar-bottom-red {
+    height: 2px;
+    width: 100%;
+    background: red;
+}
+.bar-bottom-blue {
+    height: 2px;
+    width: 100%;
+    background: rgb(116, 12, 235);
+}
+.bar-bottom-green {
+    height: 2px;
+    width: 100%;
+    background: rgb(10, 233, 36);
+}
+.bar-bottom-yellow {
+    height: 2px;
+    width: 100%;
+    background: rgb(233, 125, 10);
+}
+.date-admin {
+    color: white;
+    font-size: 9pt;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 55px;
+    right: 0;
+    text-align: center;
+    bottom: 20px;
+    font-weight: bold;
+}
+@media (max-width: 1200px) {
+    .home-admin {
+        padding: 60px;
+    }
+}
